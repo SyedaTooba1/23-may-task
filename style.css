@@ -1,0 +1,83 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+#navbar {
+    height: 100%;
+    width: 30%;
+    background-color: #3f0e40;
+    color: white;
+}
+
+.tk-2019 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bell {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.bell i {
+    color: green;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+h4:hover {
+    color: white;
+}
+
+#middle-div i {
+    font-size: 21px;
+}
+
+#middle-div button {
+    display: flex;
+    flex-direction: row;
+color:grey;
+}
+#middle-div{
+    color: #260027;
+}
+#middle-div h3{
+    margin-top: 0;
+}
+#middle-div div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+#middle-div h3{
+    color: grey;
+}
+#channels{
+    margin-top: 0px
+}
+li{
+    color: grey;
+}
+#channels h4,i{
+    color: grey;
+}
+.navigation-element li:hover{
+    background-color:blue;
+    color: white;
+}
+.navigation-element{
+    list-style-type: none;
+}
