@@ -1,83 +1,200 @@
-/* Write all your CSS here */
-
-/* Please indent properly */
-
-/* Please use only lower-case letters */
-
-/* Your webpage should be 100% responsive!!! */
-
-#navbar {
-    height: 100%;
-    width: 30%;
-    background-color: #3f0e40;
-    color: white;
+.navigation-bar{
+    height: 100vh;
+    width: 24%;
+    background-color:#3f0e3f;
+ 
+}
+.nav-1-portion{
+    margin-left: 20px;
 }
 
-.tk-2019 {
+.tk-part{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+ 
 }
-
-.bell {
+.name-part{
     display: flex;
-    flex-direction: row;
+    margin-top: -18px;
 }
+.name-part i{
+    font-size: 12px;
+    margin-top: 3px;
+    color: #2bac76;
+}
+.tk-part i{
+    color: #886889;
+    border-color: #886889;
+    padding-top: 15px;
+    font-size: 22px;
+    margin-right: 28px;
+    
+}
+h1{
+    margin-top: 2px;
+}
+h1 i{
+color: #886889;
+font-size: 16px;
 
-h2 {
+}
+h3{
+    color: #886889;
+    font-size: 16px;
     margin-top: 0;
+    margin-left: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.bell i {
-    color: green;
+
+#input-btn{
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #3e0e3f;
+
+}
+#input-btn button{
+    border: 1px solid;
+    border-color: #200720;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #200720;
+    padding: 5px; 
+ }
+#input-btn i{
+    font-size: 17px;
+}
+#input-btn input{
+    border: 1px solid;
+    border-color: #200720;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #200720;
+    padding: 8px 0px 5px 0px;
 }
 
-h4 {
-    margin-top: 0;
+.nav-2-portion{
+    margin-left: 20px;
 }
+.nav-2-portion i{
+    color: #a09a9f;
+    font-size: 20px;
+    
 
-h4:hover {
-    color: white;
 }
-
-#middle-div i {
-    font-size: 21px;
+.nav-2-portion h3{
+    margin-block-start: 0px;
+    margin-block-start: 3px;
+    margin-block-end: 10px;
 }
-
-#middle-div button {
+.nav-2-portion h3 i{
+    font-size: 14px;
+    color: #a09a9f;
+}
+.nav-2-portion h3{
+    padding: 10px 0px;
+}
+.nav-2-portion{
+    margin-block-start: 5px;
+}
+.threads:hover h3{
+    color: #ffffff;
+}
+.channels:hover h3{
+    color: #ffffff;
+}
+.nav-2-portion .channels{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-color:grey;
+    margin-bottom: -30px;
 }
-#middle-div{
-    color: #260027;
+
+.nav-2-portion{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    list-style-type: none;
+    padding-inline-start: 5px;
 }
-#middle-div h3{
-    margin-top: 0;
+.nav-2-portion li{
+    font-size: 19px;
+    color: #a09a9f;
+    list-style-type: none;
 }
-#middle-div div{
+.nav-2-portion li:hover{
+    background-color: #1263a3;
+    color: #ffffff;
+}
+.nav-2-portion li >i{
+    font-size: 12px;
+}
+.channels i{
+    margin-right: 28px;
+    margin-top: 10px;
+}
+.li-items{
+    margin-left: -35px;
+}
+.nav-3-portion{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    list-style-type: none;
+    padding-inline-start: 22px;
+}
+#add-message{
+    margin-block-start: 15px; 
     display: flex;
-    flex-direction: row;
-    margin-top: 18px;
-    margin-bottom: 0;
+    justify-content: space-between;
+    flex-direction: row;   
 }
-#middle-div h3{
-    color: grey;
+#add-message:hover h3{
+    color: #ffffff;
 }
-#channels{
-    margin-top: 0px
+#add-message i{
+    margin-right: 28px;
+    margin-top: 0px;
+    color: #a09a9f;
+    font-size: 20px;
+}
+.li-list{
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
+.li-list li{
+    font-size: 19px;
+    color: #a09a9f;
+}
+.li-list li >i{
+    font-size: 12px;
+}
+.li-list li:nth-child(1) >i{
+    color: #2bac75;
+}
+.li-list li:nth-child(2) >i{
+    color: #2bac75;
+}
+#apps{
+    margin-block-start: 15px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    margin-left: 20px;
+}
+#apps i{
+    margin-right: 28px;
+    margin-top: 0px;
+    color: #a09a9f;
+    font-size: 20px;
+}
+.nav-4-portion li{
+    list-style-type: none;
+    font-size: 19px;
+    color: #a09a9f;
+}
+#apps:hover h3{
+    color: #ffffff;
 }
 li{
-    color: grey;
-}
-#channels h4,i{
-    color: grey;
-}
-.navigation-element li:hover{
-    background-color:blue;
-    color: white;
-}
-.navigation-element{
-    list-style-type: none;
+    font-family: sans-serif;
 }
