@@ -1,6 +1,10 @@
+body{
+    display: flex;
+    margin: 0px;
+  
+
+}
 .navigation-bar{
-    height: 100vh;
-    width: 24%;
     background-color:#3f0e3f;
  
 }
@@ -33,6 +37,7 @@
 }
 h1{
     margin-top: 2px;
+    color: white;
 }
 h1 i{
 color: #886889;
@@ -46,7 +51,10 @@ h3{
     margin-left: 5px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
+#input-btn i{
+color: white;
+font-size: 17px;
+}
 
 #input-btn{
     border: 2px solid;
@@ -60,10 +68,8 @@ h3{
     border-radius: 5px 0px 0px 5px;
     background-color: #200720;
     padding: 5px; 
- }
-#input-btn i{
-    font-size: 17px;
 }
+
 #input-btn input{
     border: 1px solid;
     border-color: #200720;
@@ -191,10 +197,83 @@ h3{
     list-style-type: none;
     font-size: 19px;
     color: #a09a9f;
+    margin-left: -15px;
 }
 #apps:hover h3{
     color: #ffffff;
 }
-li{
-    font-family: sans-serif;
+header{
+    padding-inline-start: 21px;
+    padding-block-start:  0px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #b6b4b6;
+}
+.header-announcements{
+    display: flex;
+    flex-direction: column;
+}
+.header-announcements h2{
+    margin-block-start: 1px;
+    margin-block-end: 4px;
+    color: #1e1d1e;
+}
+.header-announcements div i{
+         padding: 1px 5px;
+        color: #616061;
+}
+.header-announcements div i:nth-child(2){
+    border-left: 1px solid;
+    border-right: 1px solid;
+
+}
+.header-announcements div i:nth-child(3){
+    border-right: 1px solid;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo i{
+    padding: 6px 8px;
+    color: #616061;
+    font-size: 20px;
+}
+.main-search{
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #616061;
+    padding-right: 91px; 
+}
+.main-search i{
+    color: #616061;
+}
+.main-search button{ 
+    background-color: white;
+    padding: 0px;
+    border: none; 
+}
+.main-search input{
+    border: 1px solid;
+    border-color:white;
+    border-radius: 0px 5px 5px 0px;
+    background-color:white ;
+    padding: 10px 0px 5px 0px;
+}
+fieldset{
+    border-bottom: none;
+    border-right: none;
+    border-left:none;
+    margin: 10px;
+    text-align: center; 
+}
+legend{
+    font-size: 20px;
+}
+main{
+    width: 100%;
 }
